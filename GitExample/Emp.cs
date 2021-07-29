@@ -17,13 +17,6 @@ namespace GitExample
             return "Hello " + s;
         }
 
-        public bool Check(int a,int b)
-        {
-            if (a == 42)
-                return CheckTestPass();
-            else
-                return CheckTestFail();
-
-        }
+        
     }
 }
