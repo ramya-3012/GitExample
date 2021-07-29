@@ -17,7 +17,7 @@ namespace TestProject1
         [Test]
         public void TestMessage()
         {
-            string actual = obj.Message("Ramya");
+            string actual = obj.Message("Ram");
             string expected = "Hello Ramya";
             Assert.AreEqual(expected, actual);
         }
